@@ -1,28 +1,25 @@
+html {
+  overflow: auto;
+}
+
 .menu-container {
-  position: fixed;
+  position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: baseline;
   margin-top: 5px;
   margin-left: 10px;
   background-color: white;
   z-index: 10;
 }
 
-.menu {
-  margin: 5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-}
-
 .chevron {
   display: inline-block;
   width: 20px;
   height: 20px;
-  color: white;
-  background-color: black;
   text-align: center;
+  vertical-align: middle;
   margin-left: 3px;
   margin-right: 20px;
   padding-bottom: 5px;
@@ -32,11 +29,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  transform: scaleY(-1);
 }
 
 .chevron:hover {
   background-color: #45a5be;
+  color: white;
   cursor: pointer;
 }
 
@@ -47,7 +44,7 @@
 }
 
 .container {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
