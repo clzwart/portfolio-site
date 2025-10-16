@@ -1,0 +1,11 @@
+#contact-container {
+  width: 320px;
+  height: 675px;
+  border: solid 1px black;
+}
+
+#contact-form {
+  width: 320px;
+  height: 410px;
+  border: solid 1px black;
+}
