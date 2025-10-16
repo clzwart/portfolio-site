@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 18px;
+}
+
+#project-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  border: solid #45a5be 3px;
+  border-radius: 5px;
+}
+
+#project-select {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iframe-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
