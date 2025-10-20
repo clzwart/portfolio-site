@@ -13,38 +13,57 @@
     />
   </head>
   <body>
-    <div class="content-container">
+    <div class="heading-container">
       <h1>CASSIE ZWART</h1>
       <h2>Storyboards</h2>
     </div>
-    <div id="project-menu">
-      <select name="projects" id="project-select">
-        <option value="amphibia">Amphibia</option>
-        <option value="star">Star vs the Forces of Evil</option>
-        <option value="bcg">Big City Greens</option>
-        <option value="original">Original Projects</option>
-      </select>
-    </div>
-    <div class="iframe-container">
-      <iframe
-        class="speakerdeck-iframe"
-        frameborder="0"
-        src="https://speakerdeck.com/player/0ed651885bca4345855599d1c3625ede"
-        title="Amphibia - All In"
-        allowfullscreen="true"
-        style="
-          border: 0px;
-          background: padding-box padding-box rgba(0, 0, 0, 0.1);
-          margin: 50px;
-          padding: 0px;
-          border-radius: 6px;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px;
-          width: 75vw;
-          height: auto;
-          aspect-ratio: 560 / 433;
-        "
-        data-ratio="1.2933025404157044"
-      ></iframe>
+    <div class="content-container">
+      <div id="project-menu">
+        <select name="projects" id="project-select">
+          <option value="amphibia">Amphibia</option>
+          <option value="bcg">Big City Greens</option>
+          <option value="star">Star vs the Forces of Evil</option>
+          <option value="original">Original Projects</option>
+        </select>
+      </div>
+      <div id="project-display">
+        <div class="iframe-container">
+          <h3>Amphibia S3 Episode 17 - All In</h3>
+          <iframe
+            class="selected"
+            data-project-name="amphibia"
+            src="https://speakerdeck.com/player/0ed651885bca4345855599d1c3625ede"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="iframe-container">
+          <h3>Amphibia S2 Episode 6 - Marcy at the Gates</h3>
+          <iframe
+            class="selected"
+            data-project-name="amphibia"
+            src="https://speakerdeck.com/player/85281fd100dc4f2894148beac5bf3bfa"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="iframe-container">
+          <h3>Amphibia S2 Episode 8 - Sprig Gets Schooled</h3>
+          <iframe
+            class="selected"
+            data-project-name="amphibia"
+            src="https://speakerdeck.com/player/d9b03af7110b4999807b8bdf24bbaf87"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="iframe-container">
+          <h3>Amphibia S2 Episode 14 - The First Temple</h3>
+          <iframe
+            class="selected"
+            data-project-name="amphibia"
+            src="https://speakerdeck.com/player/c806f265a4a24effa765ced756873111"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
     </div>
   </body>
 </html>
