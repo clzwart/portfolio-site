@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storyboards</title>
+    <link rel="stylesheet" href="storyboards-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cherry+Cream+Soda&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading-container">
+      <h1>CASSIE ZWART</h1>
+      <h2>Storyboards</h2>
+    </div>
+    <div class="content-container">
+      <div id="project-menu">
+        <select name="projects" id="project-select">
+          <option value="amphibia">Amphibia</option>
+          <option value="bcg">Big City Greens</option>
+          <option value="star">Star vs the Forces of Evil</option>
+          <option value="original">Original Projects</option>
+        </select>
+      </div>
+      <div id="project-display">
+        <storyboard-viewer
+          title="Amphibia S3 Episode 17 - All In"
+          show="true"
+          src="https://speakerdeck.com/player/0ed651885bca4345855599d1c3625ede"
+          data-project-name="amphibia"
+        ></storyboard-viewer>
+        <storyboard-viewer
+          title="Amphibia S2 Episode 6 - Marcy at the Gates"
+          show="true"
+          src="https://speakerdeck.com/player/85281fd100dc4f2894148beac5bf3bfa"
+          data-project-name="amphibia"
+        ></storyboard-viewer>
+        <storyboard-viewer
+          title="Amphibia S2 Episode 8 - Sprig Gets Schooled"
+          show="true"
+          src="https://speakerdeck.com/player/d9b03af7110b4999807b8bdf24bbaf87"
+          data-project-name="amphibia"
+        ></storyboard-viewer>
+        <storyboard-viewer
+          title="Amphibia S2 Episode 14 - The First Temple"
+          show="true"
+          src="https://speakerdeck.com/player/c806f265a4a24effa765ced756873111"
+          data-project-name="amphibia"
+        ></storyboard-viewer>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="components/storyboard-viewer/main.js"
+    ></script>
+  </body>
+</html>
